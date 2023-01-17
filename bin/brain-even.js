@@ -25,8 +25,8 @@ function startGame() {
     if ((isEven(number) && answer === 'yes') || (!isEven(number) && answer === 'no')) {
       console.log('Correct!');
     } else {
-      console.log(`${answer} is wrong answer ;(. Correct answer was 'no'./n
-                Let's try again, ${userName}`);
+      console.log(`${answer} is wrong answer ;(. Correct answer was 'no'`);
+      сonsole.log(`Let's try again, ${userName}`);
     }
   }
 
